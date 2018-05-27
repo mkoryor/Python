@@ -1,6 +1,3 @@
-# Project
-# Name:
-# Collaborators:
 
 import random
 import string
