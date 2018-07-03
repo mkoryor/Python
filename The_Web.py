@@ -1,11 +1,11 @@
-# opens my favorite browsers I use on the daily
+# opens my favorite sites I use daily
 
 import webbrowser
 import time
 import re
 
 
-daily_url = ["http://www.google.com"]
+daily_url = ["http://www.google.com", "http://www.youtube.com"]
 
 
 def open_tabs(url):
