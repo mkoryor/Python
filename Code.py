@@ -27,7 +27,7 @@ print(Linear_search([1,2,3,4], 4))
   
 
 Selection_sort
-numbers = [2,3,5,2,8]
+numbers = [2,3,5,2,8,2,34,99]
 
 for i in range(len(numbers) - 1):
     min = i 
@@ -36,5 +36,5 @@ for i in range(len(numbers) - 1):
             min = j
     numbers[min] = numbers[i]
     
-#[2,2,3,5,8]
+#[2,2,2,3,5,8,34,99]
 
