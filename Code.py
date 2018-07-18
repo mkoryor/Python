@@ -20,7 +20,10 @@ Linear_search(nums, v):
   return i
 
 print(Linear_search([1,2,4,3], 5))
+print(Linear_search([1,2,3,4], 4))
 # None
+# 3
+
   
 
 Selection_sort
