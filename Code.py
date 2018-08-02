@@ -21,6 +21,7 @@ Linear_search(nums, v):
 
 print(Linear_search([1,2,4,3], 5))
 print(Linear_search([1,2,3,4], 4))
+print(Linear_search([1,2,0,4], 3))
 # None
 # 3
 
