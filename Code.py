@@ -1,6 +1,6 @@
 Insertion sort
 
-arr = [5,2,4,6,1,3]
+arr = [5,2,4,6,1,3,4]
 for j in range(0, len(arr)):
     key = arr[j]
     i = j - 1
@@ -8,7 +8,7 @@ for j in range(0, len(arr)):
         arr[i+1] = arr[i]
         i = i - 1
     arr[i + 1] = key
-#[1,2,3,4,5,6]
+#[1,2,3,4,4,5,6]
 
 
 Linear_search(nums, v):
