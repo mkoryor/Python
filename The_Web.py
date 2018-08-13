@@ -16,7 +16,7 @@ def open_tabs(url):
 
 
 def main():
-    webbrowser.open(open_tabs("run"), new=0, autoraise=False)
+    webbrowser.open(open_tabs("run"), new=1, autoraise=False)
     
 
 
