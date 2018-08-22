@@ -8,7 +8,7 @@ for j in range(0, len(arr)):
         arr[i+1] = arr[i]
         i = i - 1
     arr[i + 1] = key
-#[1,2,3,4,4,5,6]
+#[1,2,3,4,4,6]
 
 
 Linear_search(nums, v):
