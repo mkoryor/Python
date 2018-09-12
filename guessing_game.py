@@ -3,7 +3,7 @@ import random
 
 def guess_num():
 
-    random_number = random.randint(1, 15)
+    random_number = random.randint(0, 15)
 
     guesses = 5
     found = True
