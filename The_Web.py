@@ -5,7 +5,7 @@ import time
 import re
 
 
-daily_url = ["http://www.google.com", "http://www.gmail.com"]
+daily_url = ["http://www.google.com", "http://www.gmail.com", "http://www.youtube.com"]
 
 
 def open_tabs(url):
