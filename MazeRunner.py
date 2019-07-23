@@ -40,7 +40,7 @@ class TheMaze(object):
 
 
 class TheBox(object):
-    """This is the first stage of 'The Maze' trials"""
+    """This is the first stage of 'The Maze' trial"""
 
     def move(self):  # define act as self.act here to assign it to a usable variable
         print("You've awoken from your unconcious sleep")
