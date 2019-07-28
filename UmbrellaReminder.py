@@ -3,7 +3,7 @@
 
 from twilio.rest import Client
 import requests, bs4
-from operator import itemgetter
+
 
 # rest API from twilio
 # Your Account SID from twilio.com/console
