@@ -1,5 +1,5 @@
 #! python3
-# umbrellaReminder.py - check the weather to see if I need an umbrella 
+# umbrellaReminder.py - Weather API that sends me text messages
 
 from twilio.rest import Client
 import requests, bs4
