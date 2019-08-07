@@ -33,4 +33,4 @@ req = urllib.request.urlopen(url, postdata)
 response = urllib.request.Request(req)
 output = response.read() # Get response
 
-print(output) #print respone
+print(output) #print response
