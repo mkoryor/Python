@@ -27,7 +27,7 @@ def textmyself():
 	
 
 	message = client.messages.create(
-	    to="+14695104352", 
+	    to="+1469XXXXXXX", 
 	    from_="+17033489722",
 	    body= fullforcast)
 
