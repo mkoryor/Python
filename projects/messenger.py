@@ -33,8 +33,4 @@ def textmyself():
 
 	return message.sid 
 
-#print(textmyself())
 
-
-
-#print(weather.prettify())
