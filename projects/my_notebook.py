@@ -1,4 +1,5 @@
 import datetime
+import sys
 
 # Store the next available id for all new notes
 last_id = 0
