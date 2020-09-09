@@ -11,12 +11,11 @@ def findLastNum(arr):
     
     while i >= 0 and arr[i] == -1:
         i -= 1
-    
     return i
 
 def cloneEvenNumbers(arr):
     
-    # helper to grab last number
+    # helper func to grab last number
     i = findLastNum(arr)
     end = len(arr)
 
@@ -29,7 +28,7 @@ def cloneEvenNumbers(arr):
             end -= 1
             arr[end] = arr[i]
         else:
-            # add one instances if odd
+            # add one instances if odd num
             end -= 1
             arr[end] = arr[i]
         i -= 1
@@ -39,6 +38,7 @@ def cloneEvenNumbers(arr):
 
 print(cloneEvenNumbers([1,2,5,6,8,-1,-1,-1]))
 
-
+# Output: [1, 2, 2, 5, 6, 6, 8, 8]
+# Time: O(n) Space: O(1)
 
 
