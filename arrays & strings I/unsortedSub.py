@@ -44,7 +44,7 @@ def unsorted_sub(arr):
             min_val = arr[k]
         k += 1
 
-    # expand start end end outward
+    # expand start and end outward
     while start > 0 and arr[start - 1] > min_val:
         start -= 1
     while end < len(arr) - 1 and arr[end + 1] < max_val:
