@@ -3,7 +3,7 @@
 
 
 
-''' (Traverse Both Ends [M]):Given an array of integers, find the continuous 
+''' (Traverse Both Ends [M]): Given an array of integers, find the continuous 
 subarray, which when sorted, results in the entire array being sorted.For example: 
 A = [0,2,3,1,8,6,9], result is the subarray [2,3,1,8,6]'''
 
@@ -31,7 +31,7 @@ def unsorted_sub(arr):
     # subarray from arr[start:end + 1]
     sub = arr[start: end + 1]
 
-    # find max and min in arr
+    # find max and min in sub
     max_val = min(sub)
     min_val = max(sub)
     k = start 
