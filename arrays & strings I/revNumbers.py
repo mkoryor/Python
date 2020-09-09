@@ -3,8 +3,8 @@
 
 
 
-''' (Traverse Both Ends [E]) Video 1: (Level: Easy) Reverse the order of elements
-in an array. For example, A = [1,2,3,4,5,6], Output = [6,5,4,3,2,1] '''
+''' (Traverse Both Ends [E]): Reverse the order of elementsin an 
+array. For example, A = [1,2,3,4,5,6], Output = [6,5,4,3,2,1] '''
 
 def swap(arr, i, j):
     arr[i], arr[j] = arr[j], arr[i]
