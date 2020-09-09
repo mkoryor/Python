@@ -13,7 +13,7 @@ def findLastNum(arr):
 
 def cloneEvenNumbers(arr):
     
-    # helper func to grab last number
+    # helper func to grab last index not -1
     i = findLastNum(arr)
     end = len(arr)
 
