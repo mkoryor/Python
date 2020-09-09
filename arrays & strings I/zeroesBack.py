@@ -11,7 +11,8 @@ def swap(arr, i, j):
     arr[i], arr[j] = arr[j], arr[i]
 
 def zeroes_back(arr):
-
+    
+    # pointer to replace zeroes to end
     write_index = len(arr) - 1
     i = len(arr) - 1
 
