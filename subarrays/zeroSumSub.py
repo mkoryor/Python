@@ -15,7 +15,7 @@ def zeroSumSub(arr):
         curr_sum += arr[i]
 
         if curr_sum == 0:
-            return [0, i]
+            return arr[0:i + 1]
         
         if curr_sum in hashMap:
             # get subarr which equals zero
