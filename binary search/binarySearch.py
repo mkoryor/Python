@@ -9,7 +9,7 @@ def binarySearch(arr, T):
     high = len(arr) - 1
 
     while low <= high:
-        mid = low + (high - low) // 1
+        mid = low + (high - low) // 2
 
         if arr[mid] < T:
             low = mid + 1
