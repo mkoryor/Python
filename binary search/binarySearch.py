@@ -29,3 +29,6 @@ print(binarySearch([1,2,2,6,9], 9))
 # Output: 4
 # Time: O(logn) Space: O(1)
 
+
+
+
