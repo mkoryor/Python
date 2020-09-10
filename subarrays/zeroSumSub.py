@@ -8,8 +8,6 @@ positive integers.For example: Input = [2,4,-2,1,-3,5,-3], Result = [4,-2,1,-3]'
 
 def zeroSumSub(arr):
 
-    if arr == None or len(arr) == 0:
-        return None
 
     curr_sum = 0
     hashMap = {}
