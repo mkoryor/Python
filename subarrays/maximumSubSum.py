@@ -21,7 +21,7 @@ def maximumSubSum(arr):
 
     return maxSum
 
-print(maximumSumSub([1,2,-1,2,-3,2, -5]))
+print(maximumSubSum([1,2,-1,2,-3,2, -5]))
 
 
 # Output: 5 - sub = [1,2,-1,2]
