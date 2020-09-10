@@ -3,7 +3,7 @@
 
 '''Implementation of Binary Search that you should know well.'''
 
-def binarySearch(arr, target):
+def binarySearch(arr, T):
 
     low = 0
     high = len(arr) - 1
@@ -11,10 +11,10 @@ def binarySearch(arr, target):
     while low <= high:
         mid = low + (high - low) // 1
 
-        if arr[mid] < target:
+        if arr[mid] < T:
             low = mid + 1
         
-        elif arr[mid] > target:
+        elif arr[mid] > T:
             high = mid - 1
 
         else:
