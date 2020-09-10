@@ -3,7 +3,7 @@
 
 
 
-'''(Sliding Window using Two Pointers): Given an array of positive integers, 
+'''(Sliding Window using Two Pointers [E]): Given an array of positive integers, 
 find the contiguous subarray that sums to a given number X.
 For example, input = [1,2,3,5,2] and X=8, Result = [3,5]'''
 
