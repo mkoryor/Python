@@ -1,7 +1,7 @@
 
 
 
-'''(Binary Search Duplicates [E]): Given a sorted array that can contain duplicates, find the first 
+'''(Binary Search Duplicates Technique [E]): Given a sorted array that can contain duplicates, find the first 
 occurrence of a target element T.For example, if A = [2,3,4,4,5,6] and T = 4, return index 2.'''
 
 def binaryDup(arr, x):
