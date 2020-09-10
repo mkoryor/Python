@@ -11,14 +11,11 @@ def maximumSubSum(arr):
     
     maxSum = arr[0]
     maxEndingHere = arr[0]
-    i = 0
 
-    while i <= len(arr) - 1:
+    for i in range(len(arr)):
         maxEndingHere = max(maxEndingHere + arr[i], arr[i])
         maxSum = max(maxSum, maxEndingHere)
         
-        i += 1
-
     return maxSum
 
 print(maximumSubSum([1,2,-1,2,-3,2, -5]))
