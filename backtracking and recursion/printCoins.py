@@ -4,7 +4,7 @@
 
 
 """
-(Backtracking and Recursion [M]): Technique: Permutations/Combinations using 
+(Recursion [M]): Technique: Permutations/Combinations using 
 Auxiliary BufferLevel: Coin Change Problem: Given a set of coin denominations, 
 print out the different ways you can make a target amount. You can use as many 
 coins of each denomination as you like.
