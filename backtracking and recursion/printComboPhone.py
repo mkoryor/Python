@@ -61,7 +61,7 @@ print(printWords('213'))
           ['c', 'e']
           ['c', 'f']
           
-Time: O(4^n) where n is size of phoneNumber Space: O(n) size of phoneNumber
+# Time: O(4^n) where n is size of phoneNumber Space: O(n) size of phoneNumber
 
 
     
