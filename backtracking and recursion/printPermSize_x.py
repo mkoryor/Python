@@ -54,7 +54,7 @@ print(printPerm([1,2,3], 2))
           [3, 1]
           [3, 2]
 
-Time: O(2^n) factorial complexity  Space: O(n) temp allocation and stack call
+Time: O(n!) factorial complexity  Space: O(n) temp allocation and stack call
 
 
 
