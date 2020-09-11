@@ -4,7 +4,7 @@
 
 
 """
-(Backtracking and Recursion [M]):Technique: Permutations/Combinations using 
+(Recursion [M]):Technique: Permutations/Combinations using 
 Auxiliary BufferLevel: MediumGiven an array A, print all permutations of size X.
 For example,
 Input:A = [1,2,3] X = 2
