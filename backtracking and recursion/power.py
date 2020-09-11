@@ -3,7 +3,7 @@
 
 
 '''
-(Backtracking and Recursion):  Power Function: Implement a function to 
+(Recursion):  Power Function: Implement a function to 
 calculate xn. Both x and n can be positive/negative and overflow doesn't happen. 
 Try doing it in O(log(n)) time. '''
 
