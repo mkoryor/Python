@@ -49,7 +49,7 @@ printCoins([1,2,5], 5)
           [1, 2, 2]
           [5]
           
-Time: O(n!) factorial complexity    Space: O(T) b/c temp & stack call are size of target
+# Time: O(n!) factorial complexity    Space: O(T) b/c temp & stack call are size of target
 
 
 
