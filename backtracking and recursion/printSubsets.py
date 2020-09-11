@@ -58,7 +58,7 @@ printSubsets([1,2,3])
           [2, 3]
           [3]
           
-Time: O(2^n) factorial complexity Space: O(n) temp allocation and call stack
+Time: O(n!) factorial complexity Space: O(n) temp allocation and call stack
           
 
 
