@@ -2,7 +2,7 @@
 
 
 """
-(Backtracking and Recursion [M]):Technique: Permutations/Combinations using
+(Recursion [M]):Technique: Permutations/Combinations using
 Auxiliary BufferLevel: MediumGiven an array of integers A, print all its subsets.
 For example:
 Input:​ [1, 2, 3]
