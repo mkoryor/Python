@@ -4,7 +4,7 @@
 
 
 '''
-(Backtracking and Recursion [M]): Technique: Permutations/Combinations 
+(Recursion [M]): Technique: Permutations/Combinations 
 using Auxiliary BufferLevel: MediumPhone Number Mnemonics: Given an N digit 
 phone number, print all the strings that canbe made from that phone number. 
 Since 1 and 0 don't correspond to any characters, ignorethem.
