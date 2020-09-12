@@ -7,12 +7,11 @@
   
 # Node class 
 class Node: 
-    # Function to initialise the node object 
     def __init__(self, data): 
-        self.data = data # Assign data 
-        self.next = None # Initialize next as null 
+        self.data = data 
+        self.next = None 
 
-# Linked List class contains a Node object 
+        
 class LinkedList: 
     # Function to initialize head 
     def __init__(self): 
@@ -28,8 +27,8 @@ class LinkedList:
         new_node.next = self.head 
         # 4. Move the head to point to new Node 
         self.head = new_node 
-  
-    # Returns data at given index in linked list 
+        
+        
     def getNth(self, index): 
         current = self.head # Initialise temp 
         count = 0 # Index of current node 
@@ -43,7 +42,7 @@ class LinkedList:
 
         return 0
   
-# Code execution starts here 
+
 if __name__=='__main__': 
   
     llist = LinkedList() 
