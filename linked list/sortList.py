@@ -33,7 +33,7 @@ class LinkedList(object):
         # * count[1] will store total number of '1's 
         # * count[2] will store total number of '2's   
         while ptr != None: 
-            count[ptr.data] +=1
+            count[ptr.data] += 1
             ptr = ptr.next
         i = 0
         ptr = self.head 
@@ -45,10 +45,10 @@ class LinkedList(object):
         # * 3) fill the list with 2, till n3 > 0   
         while ptr != None: 
             if count[i] == 0: 
-                i+=1
+                i += 1
             else: 
                 ptr.data = i 
-                count[i]-=1
+                count[i] -= 1
                 ptr = ptr.next
   
     # Utility functions 
@@ -62,8 +62,7 @@ class LinkedList(object):
         new_node.next = self.head 
         # 4. Move the head to point to new Node 
         self.head = new_node 
-  
-    # Function to print linked list 
+
     def printList(self): 
         temp = self.head 
         while temp != None: 
