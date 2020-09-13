@@ -1,5 +1,7 @@
 
 
+# Remember: The Height of a binary tree is the Depth of the deepest node in the tree.
+
 from collections import deque
 
 
