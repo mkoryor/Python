@@ -1,1 +1,1 @@
-Python Projects and Interview Prep
+Python Projects and Prep
