@@ -8,6 +8,7 @@
 1.[H] BigInteger Addition: You are given a number in the form of an array. 
 Each digit in the array represents a digit in the number. For example, 100 -> [1,0,0]. 
 Perform addition of 2 such number arrays. For example,
+[1,0,0] + [2] = [1,0,2]
 """
 
 
