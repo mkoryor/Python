@@ -12,19 +12,19 @@ def swap(arr, i, j):
     arr[i], arr[j] = arr[j], arr[i]
 
 def dutch_flag(arr, pivot):
-    low = 0
-    high = len(arr) - 1
+    low_bound = 0
+    high_bound = len(arr) - 1
     i = 0
 
-    while i <= high:
+    while i <= high_bound:
         if arr[i] < pivot:
-            swap(arr, i, low)
-            low += 1
+            swap(arr, i, low_bound)
+            low_bound += 1
             i += 1
         elif arr[i] > pivot:
-            swap(arr, i, high)
+            swap(arr, i, high_bound)
             # don't increment i here bc high is sorted
-            high -= 1
+            high_bound -= 1
         else:
             i += 1
     return arr
